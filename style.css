@@ -1,0 +1,182 @@
+.body {
+    background-image: url(img/pexels-gochrisgoxyz-1477166.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -90px;
+    justify-content: center;
+    width: 100%;
+    height: 101%;
+
+}
+body{
+    width:1358px;
+    height: 663px;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.logo {
+    width: 190px;
+    height: 130px;
+}
+h2{
+    font-weight: bold;
+    font-size: 28px;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.dlogo {
+    width: 160px;
+    height: 100px;
+    margin: auto;
+    margin-top: -18px;
+}
+.empty {
+    clear: both;
+    overflow: auto;
+}
+.container {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.block1{
+    float: left;
+   margin-left: 125px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 40px;
+    width: 350px;
+    height: 440px;
+    position: relative;
+}
+.block2{
+    float: left;
+    margin-right: 20px;
+   overflow: hidden;
+   border-radius: 40px;
+   width: 350px;
+   height: 440px;
+   position: relative;
+   
+}
+.block3{
+    float: left;
+    margin-right: 1px;
+    border-radius: 55px;
+  overflow: hidden;
+  width: 350px;
+  height: 438px;
+  position: relative;
+}
+.photo {
+    width: 350px;
+    height: 440px;
+   transition: transform 1s;
+   position: relative;
+}
+.css{
+    margin-top: 150px;
+    transform: translateY(100px); 
+    transition: transform 2s;
+}
+.hover1, .hover2, .hover3 {
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0); 
+    transition: opacity 1s, background-color 1s,transform 1s; 
+}
+.block1:hover .photo {
+    transform: scale(1.1); 
+    filter: blur(1px); 
+}
+.block2:hover .photo {
+    transform: scale(1.1); 
+    filter: blur(1px); }
+.block3:hover .photo {
+    transform: scale(1.1); 
+    filter: blur(1px);
+ }
+.block1:hover .hover1, .block2:hover .hover2, .block3:hover .hover3 {
+    opacity: 1;
+     background-color: rgba(0, 0, 0, 0.5);
+     transition: opacity 1s,background-color 1s;
+     z-index: 1;
+}
+.block1:hover .css, .block2:hover .css, .block3:hover .css {
+    transform: translateY(0);
+}
+.price1 {
+    float: left;
+    margin: 0px;
+    margin-left: 100px;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: smaller;
+    font-weight: bold;
+}
+.price2 {
+    float: right;
+    font-size: small;
+    margin: 0px;
+    margin-left: 30px;
+    margin-right: 40px;
+    color: gray;
+    font-weight: bold;
+}
+.inf {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+.addtocart {
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-color: rgba(98, 109, 255, 0.959);
+    color: white;
+    border: none;
+    border-radius: 33px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.button {
+    margin: auto;
+    width: 100%;
+}
+.addtocart:hover {
+    background-color: rgb(67, 138, 67);
+}
+.cont2{
+    display: flex;
+}
+.inf1{
+    width:355px ;
+    margin-left: 99px;
+}
+.inf2{
+    width:355px ;
+    margin-left: 1px;
+}
+.inf3{
+    width:355px ;
+    margin-left: 26px;
+}
+.addtocart{
+    margin-top: 15px;
+    margin-left: 7px;
+}
